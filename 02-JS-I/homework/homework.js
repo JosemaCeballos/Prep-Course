@@ -72,7 +72,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1 === str2){return true;}
+  if (str1 == str2){return true;}
   else {return false;}
 }
 
@@ -159,13 +159,16 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  
+  if (numero > 0){return 'Es positivo';}
+  else if (numero < 0){return 'Es negativo';}
+  else{return false;}
 }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
+
 }
 
 function combinarNombres(nombre, apellido) {
