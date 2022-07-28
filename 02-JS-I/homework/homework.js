@@ -227,10 +227,10 @@ function esVocal(letra){
   if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u'){
     return 'Es vocal';
   }
-  else if (letra.length !== 1){
+  else if (letra != 'a' || letra != 'e' || letra != 'i' || letra != 'o' || letra != 'u'){
     return 'Dato Incorrecto';
   }
-  else {
+  else if (letra.length !== 1){
     return 'Dato Incorrecto';
   }
 }
